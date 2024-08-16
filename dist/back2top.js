@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', function () {
         div.style.border = 'none';
         div.style.right = right + 'px';
         div.style.marginTop = 0;
-        div.style.background = 'url("../images/scroll.png") center/cover';
+        div.style.background = 'url("https://cdn.jsdelivr.net/gh/lyh-workshops/back2top/images/scroll.png") center/cover';
         div.style.display = 'block';
 
         div.addEventListener('click', function () {
