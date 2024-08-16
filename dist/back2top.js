@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     back2topFn(back2top);
 
-    function back2topFn({ width = 70, height = 900, right = 1 }) {
+    function back2topFn({ width = 70, height = 900, right = 15 }) {
         var body = this.document.body;
         var div = this.document.createElement('div');
         body.appendChild(div);
