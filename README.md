@@ -1,5 +1,7 @@
 # back2top
 
+## Usage
+
 ```html
 <!-- jsDelivr -->
 <script src="https://cdn.jsdelivr.net/gh/lyh-workshops/back2top/dist/back2top.min.js"></script>
