@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     back2topFn(back2top);
 
-    function back2topFn({ width = 70, height = 900, right = 15 }) {
+    function back2topFn({ width = 70, height = 900, right = 15, top = 0, bg = 'https://cdn.jsdelivr.net/gh/lyh-workshops/back2top/images/scroll.png' }) {
         var body = this.document.body;
         var div = this.document.createElement('div');
         body.appendChild(div);
@@ -12,11 +12,11 @@ window.addEventListener('DOMContentLoaded', function () {
         div.style.position = 'fixed';
         div.style.width = width + 'px';
         div.style.height = height + 'px';
-        div.style.border = 'none';
         div.style.right = right + 'px';
-        div.style.top = '0px';
+        div.style.top = top + 'px';
+        div.style.border = 'none';
         div.style.marginTop = 0;
-        div.style.background = 'url("https://cdn.jsdelivr.net/gh/lyh-workshops/back2top/images/scroll.png") center/cover';
+        div.style.background = `url(${bg}) center/cover`;
         div.style.display = 'block';
 
         div.addEventListener('click', function () {

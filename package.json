@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "uglifyjs dist/back2top.js -o dist/back2top.min.js"
+  },
+  "dependencies": {
+    "uglify-js": "^3.19.2"
+  }
+}
